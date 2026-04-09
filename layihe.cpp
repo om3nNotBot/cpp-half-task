@@ -34,7 +34,7 @@ void addDoctor() {
 
     Doctor* d = new Doctor;
 
-    d->id = countDoctors + 1; // 🔥 AUTO ID
+    d->id = countDoctors + 1; 
 
     cout << "Ad: "; cin >> d->ad;
     cout << "Soyad: "; cin >> d->soyad;
